@@ -1,13 +1,4 @@
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
@@ -39,4 +30,141 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+
+
+p {
+    line-height: 3;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    color: white;
+    font-size: 50pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 220pt;
+    display: flex;
+}
+
+#home_pic {
+    background-image: url("../images/home.png");
+    background-size: cover;
+}
+
+#aboutus_pic {
+    background-image: url("../images/aboutus.png");
+    background-size: cover;
+}
+
+#download_pic {
+    background-image: url("../images/download.png");
+    background-size: cover;
+}
+
+#head_flex {
+    margin-right: 60px;
+    margin-left: auto;
+    display: flex;
+    height: 45px;
+}
+
+.pop_games {
+    box-shadow: 0 9px 18px -4px rgba(0, 0, 0, 0.50);
+    border-radius: 38px;
+}
+
+.pop_description {
+    font-family: 'Montserrat';
+    color: #606060;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom {
+    font-size: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+
+.adaptivSlayder {
+    position: relative;
+    border-radius: 30%;
+    max-width: 170vhpx;
+    margin: 40px auto;
+    box-shadow: 0 9px 18px -4px rgba(0, 0, 0, 0.69);
+}
+
+    .adaptivSlayder input[name="kadoves"] {
+        display: none;
+    }
+
+.kadoves {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    text-align: center;
+    width: 100%;
+}
+
+    .kadoves label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+        margin: 0 2px;
+        border-radius: 55%;
+        border: 4px solid #2f363c;
+        background-color: #738290;
+    }
+
+#slaid1:checked ~ .kadoves label[for="slaid1"] {
+    background-color: white;
+}
+
+#slaid2:checked ~ .kadoves label[for="slaid2"] {
+    background-color: white;
+}
+
+
+#slaid3:checked ~ .kadoves label[for="slaid3"] {
+    background-color: white;
+}
+
+
+.adaptivSlayderlasekun {
+    overflow: hidden;
+}
+
+.abusteku-deagulus {
+    display: flex;
+    width: 100%;
+    transition: all 0.6s;
+}
+
+
+    .abusteku-deagulus img {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+#slaid1:checked ~ adaptivSlayderlasekun abusteku-deagulus {
+    transform: translate(0);
+}
+
+#slaid2:checked ~ .adaptivSlayderlasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+}
+
+
+#slaid3:checked ~ .adaptivSlayderlasekun .abusteku-deagulus {
+    transform: translateX(-200%);
 }
