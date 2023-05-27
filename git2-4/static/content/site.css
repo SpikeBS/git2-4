@@ -35,6 +35,7 @@ input[type="checkbox"].input-validation-error {
 
 p {
     line-height: 3;
+    letter-spacing: 1px;
 }
 
 @font-face {
@@ -75,15 +76,17 @@ p {
     height: 45px;
 }
 
+
 .pop_games {
-    box-shadow: 0 9px 18px -4px rgba(0, 0, 0, 0.50);
+    box-shadow: 0 9px 12px -4px rgba(59, 26, 153, 0.40);
     border-radius: 38px;
+    width: 90%;
 }
 
 .pop_description {
     font-family: 'Montserrat';
     color: #606060;
-    line-height: 1.5;
+    line-height: 2.5;
     text-align: center;
     margin-top: 20px;
 }
@@ -98,7 +101,7 @@ p {
 .adaptivSlayder {
     position: relative;
     border-radius: 30%;
-    max-width: 170vhpx;
+    max-width: 100%;
     margin: 40px auto;
     box-shadow: 0 9px 18px -4px rgba(0, 0, 0, 0.69);
 }
@@ -168,3 +171,28 @@ p {
 #slaid3:checked ~ .adaptivSlayderlasekun .abusteku-deagulus {
     transform: translateX(-200%);
 }
+
+.flex-container {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.left_p_container {
+    font-family: 'Montserrat';
+    color: #606060;
+    text-align: left;
+}
+
+.pop_games_container {
+    width: 22%;
+    height: 20%;
+    text-align: center;
+}
+
+.title {
+    font-size: 35pt;
+    font-family: 'Montserrat';
+    margin-top: 30px; margin-bottom: 40px;
+}
+
