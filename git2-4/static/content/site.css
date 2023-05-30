@@ -7,6 +7,11 @@ textarea {
     max-width: 280px;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 /* styles for validation helpers */
 .field-validation-error {
     color: #b94a48;
@@ -36,6 +41,13 @@ input[type="checkbox"].input-validation-error {
 p {
     line-height: 3;
     letter-spacing: 1px;
+    font-size: 13pt;
+}
+
+span {
+    line-height: 3;
+    letter-spacing: 1px;
+    font-size: 13pt;
 }
 
 @font-face {
@@ -52,6 +64,7 @@ p {
     width: 100%;
     height: 220pt;
     display: flex;
+    align-items: flex-end;
 }
 
 #home_pic {
@@ -70,7 +83,8 @@ p {
 }
 
 #head_flex {
-    margin-right: 60px;
+    align-self: start;
+    margin-right: 5%;
     margin-left: auto;
     display: flex;
     height: 45px;
@@ -196,3 +210,19 @@ p {
     margin-top: 30px; margin-bottom: 40px;
 }
 
+.markup {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+.footer {
+    background-color: #404040;
+    height: 20vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-self: end;
+}

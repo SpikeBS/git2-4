@@ -16,10 +16,12 @@
     
 
         {{!base}}
-        <hr />
-        <footer>
-            <p>&copy; {{ year }} - My Bottle Application</p>
-        </footer>
+        <section>
+ <div class="footer">
+ <p style="color: #d0d0d0; font-family: 'Montserrat'; width: 75vh; margin-left: 15%; padding-top: 2%;">Suspendisse potenti. Sed orci erat, vehicula a tincidunt at, accumsan vel purus.</p>
+ <span style="color: #d0d0d0; font-family: 'Montserrat' ; padding-top: 3%; margin-left: 5%;";>© SonAngelo company. All rights reserved</span>
+ </div>
+ </section>
     
 
     <script src="/static/scripts/jquery-1.10.2.js"></script>

@@ -16,32 +16,33 @@
 <body>
     <header>
 		<div class = "header">
-		<div style="display: flex;">
-		<image src="static/images/logo.png" style="width: 100px; height: 100px; align-self: flex-end;  margin-bottom: 40px; margin-left: 80px"/>
-		<div class="markup>
+		
+		<div class="markup">
+
+			<image src="static/images/logo.png" style="width: 100px; height: 100px; align-self: flex-end;  margin-bottom: 40px; margin-left: 80px"/>
 			<span style="align-self: flex-end; margin-bottom: 40px; margin-left: 20px;  text-shadow: 0 9px 12px -4px rgba(59, 26, 153, 0.80);">Launch gaming </span>
-			</div>
+				
 		</div>
-			
-			<div style="margin-top: 30px;  " id="head_flex">
+		<div style="margin-top: 30px;  " id="head_flex">
 			<a style="width: 45px; height: 40px;" href="/" id="home_pic"> </a>
-			<a style="width: 40px; height: 40px; margin-left: 50px" href="/" id="aboutus_pic"> </a>
+			<a style="width: 40px; height: 40px; margin-left: 50px" href="/about" id="aboutus_pic"> </a>
 			<a style="width: 40px; height: 40px; margin-left: 50px" href="/" id="download_pic"> </a>
-			</div>		
+			</div>	
+			
+			
 		</div>		
  </header>
- <div class="markup" style="width: 75%; margin-left: auto; margin-right: auto; text-align: left;">
+ <div class="markup">
 	<section class="top">
 		<p class="left_p_container" style="margin-top: 50px;">Quisque et sem orci. Vestibulum accumsan tempus tortor, sed porttitor
 		 purus vestibulum non. Etiam ante lacus, accumsan placerat diam et, convallis ullamcorper lectus. 
-		 Sed viverra dolor nisl, ut bibendum dui euismod ut. Cras quis accumsan mauris, in tempor erat. Pellentesque 
-		 lacinia tempor aliquam.</p>
+		 Sed viverra dolor nisl, ut bibendum dui euismod ut.</p>
 		<h1 class="title">The most popular games</h1> 
 		<div class="flex-container">
 		<div class="pop_games_container">
 			<image src="static/images/Game1.png" class="pop_games"/>
 			<p class="pop_description">Mauris consequat risus at mauris rutrum bibendum. 
-		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+		Pellentesque habitant morbi.</p>
 		</div>
 		<div class="pop_games_container">
 			<image src="static/images/Game2.png" class="pop_games"/>
@@ -109,12 +110,6 @@
  
  
  </div>
- <section class="footer">
- <div style="background-color: #404040; height: 20vh; width: 100%; margin-top: 50px; display: flex;">
- <p style="color: #d0d0d0; font-family: 'Montserrat'; width: 75vh; margin-left: 15%; padding-top: 2%;">Suspendisse potenti. Sed orci erat, vehicula a tincidunt at, accumsan vel purus. Nunc interdum quam eu nisi viverra, a commodo purus ultricies.Sed vulputate turpis rhoncus justo varius luctus. </p>
- <span style="color: #d0d0d0; font-family: 'Montserrat' ; padding-top: 3%; margin-left: 5%;";>© SonAngelo company. All rights reserved</span>
- </div>
- </section>
 
 </body>
 </html>
