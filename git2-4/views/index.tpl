@@ -17,13 +17,11 @@
     <header>
 		<div class = "header">
 		
-		<div class="markup">
 
 			<image src="static/images/logo.png" style="width: 100px; height: 100px; align-self: flex-end;  margin-bottom: 40px; margin-left: 80px"/>
-			<span style="align-self: flex-end; margin-bottom: 40px; margin-left: 20px;  text-shadow: 0 9px 12px -4px rgba(59, 26, 153, 0.80);">Launch gaming </span>
-				
-		</div>
-		<div style="margin-top: 30px;  " id="head_flex">
+			<h1 class="main_title">Launch gaming </h1>
+
+			<div style="margin-top: 30px;  " id="head_flex">
 			<a style="width: 45px; height: 40px;" href="/" id="home_pic"> </a>
 			<a style="width: 40px; height: 40px; margin-left: 50px" href="/about" id="aboutus_pic"> </a>
 			<a style="width: 40px; height: 40px; margin-left: 50px" href="/" id="download_pic"> </a>
@@ -50,7 +48,7 @@
 		</div>
 		<div class="pop_games_container">
 			<image src="static/images/Game3.png" class="pop_games"/>
-			<p class="pop_description">Phasellus rutrum, libero nec consectetur blandit, augue nisi consequat elit, non tincidunt purus lacus in sem. </p>
+			<p class="pop_description">Phasellus rutrum, libero nec consectetur blandit. </p>
 		</div>
 		<div class="pop_games_container">
 			<image src="static/images/Game4.png" class="pop_games"/>
@@ -64,9 +62,7 @@
  <h1 style="font-size:35pt; font-family: 'Montserrat', sans-serif;" class="title">Latest</h1> 	
  <p class="left_p_container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum lorem quis accumsan rutrum. 
  Sed ultrices volutpat auctor. Phasellus rutrum, libero nec consectetur blandit, augue nisi consequat elit, 
- non tincidunt purus lacus in sem. In orci lacus, porttitor efficitur dui eu, sollicitudin tempus nisi. 
- Mauris consequat risus at mauris rutrum bibendum. Pellentesque habitant morbi tristique senectus et netus 
- et malesuada fames ac turpis egestas. Proin sed facilisis lacus.</p>
+ non tincidunt purus lacus in sem. In orci lacus.</p>
  
  <div class="adaptivSlayder">
   <input type="radio" name="kadoves" id="slaid1" checked>
@@ -91,19 +87,19 @@
  </section>
  <hr style="width: auto; margin-top: 80px">
  <section class="bottom">
-	<h1 style="margin-bottom: 20px; margin-left: 40px; text-align: center; color: linear-gradient(to top, white, red);">Why us?</h1>
-	<div style="display: flex; justify-content: center; margin-top: 60px" >
-	<div style="width: 250px; height: 400px;  text-align:center;">
-	<image src="static/images/reability.png" style="width: 250px; height: 250px; "/>
-	<span style="font-size: 28pt;">Reability</span>
+	<h1 style="margin-bottom: 20px; text-align: center;">Why us?</h1>
+	<div class="why_us_section" >
+	<div class="container_why_us">
+	<image src="static/images/reability.png" class="pic_why_us"/>
+	<span class="span2">Reability</span>
 	</div>
-	<div style="width: 250px; height: 400px;  text-align:center; margin-left: 150px;">
-	<image src="static/images/gaming.png" style="width: 250px; height: 250px; "/>
-	<span style="font-size: 28pt;">1000+ games</span>
+	<div class="container_why_us">
+	<image src="static/images/gaming.png" class="pic_why_us"/>
+	<span class="span2">1000+ games</span>
 	</div>
-	<div style="width: 250px; height: 400px;  text-align:center; margin-left: 150px;">
-	<image src="static/images/cloud.png" style="width: 250px; height: 250px; "/>
-	<span style="font-size: 28pt;">Cloud gaming</span>
+	<div class="container_why_us">
+	<image src="static/images/cloud.png" class="pic_why_us"/>
+	<span class="span2">Cloud gaming</span>
 	</div>
 	</div>
  </section>
